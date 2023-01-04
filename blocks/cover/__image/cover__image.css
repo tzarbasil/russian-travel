@@ -1,0 +1,35 @@
+.cover__image {
+    object-fit: contain;
+    position: absolute;
+    max-width: 1184px;
+    width: 100%;
+    min-height: 740px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    margin: 0 auto;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__image {
+      max-width: 1024px;
+      min-height: 640px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cover__image {
+      max-width: 768px;
+      min-height: 480px;
+    }
+  }
+  
+  @media screen and (max-width: 321px) {
+    .cover__image {
+      max-width: 320px;
+      min-height: 200px;
+    }
+}

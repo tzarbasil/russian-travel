@@ -1,0 +1,45 @@
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 1184px;
+    min-height: 740px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+ .cover:hover::after{
+    content: "";
+    background: #2A2C2F;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: block;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+      max-width: 1024px;
+      min-height: 740px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cover {
+      max-width: 768px;
+      min-height: 480px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .cover {
+      max-width: 320px;
+      min-height: 200px;
+    }
+}
+
