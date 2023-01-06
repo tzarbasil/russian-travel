@@ -3,10 +3,14 @@
     max-width: 288px;
     width: 100%;
     white-space: nowrap;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
+}
+
+.place__link:hover {
+    opacity: .8;
 }
