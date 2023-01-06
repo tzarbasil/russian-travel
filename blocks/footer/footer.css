@@ -9,24 +9,24 @@
 
 @media screen and (max-width: 1024px) { 
   .footer { 
-    max-width: 928px; 
-    margin-top: 92px; 
+    max-width: 928px;
+    margin-top: 92px;
   } 
 } 
  
 @media screen and (max-width: 768px) { 
   .footer { 
-    max-width: 720px; 
-    margin-top: 88px; 
+    max-width: 720px;
+    margin-top: 88px;
   } 
 } 
  
 @media screen and (max-width: 320px) { 
   .footer { 
-     max-width: 186px; 
-     margin-left: 16px; 
-     margin-top: 64px; 
-     flex-direction: column; 
-     align-items: flex-start; 
+     max-width: 186px;
+     margin-left: 16px;
+     margin-top: 64px;
+     flex-direction: column;
+     align-items: flex-start;
   } 
 } 
