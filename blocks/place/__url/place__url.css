@@ -8,6 +8,7 @@ font-size: 12px;
 line-height: 12px;
 color: #AAAAAA;
 margin-top: 0;
+letter-spacing: 2px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

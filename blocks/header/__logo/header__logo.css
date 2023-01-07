@@ -2,18 +2,6 @@
     width: 176px;
 }
 
-@media screen and (max-width: 1025px) {
-    .header_logo {
-      max-width: 928px;
-    }
-  }
-  
-  @media screen and (max-width: 769px) {
-    .header__logo {
-      max-width: 720px;
-    }
-  }
-  
   @media screen and (max-width: 767px) {
     .header__logo {
     max-width: 142px;

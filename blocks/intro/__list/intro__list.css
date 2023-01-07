@@ -1,4 +1,7 @@
 .intro__list {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
     color: white;
     list-style-type: none;
     margin: 0 auto;
