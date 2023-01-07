@@ -7,9 +7,17 @@
 }
 
 
+@media screen and (max-width: 1026px) {
+    .place__links {
+        max-width: 456px;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .place__links {
         max-width: 352px;
+        padding-bottom: 10px;
 }
 }
 

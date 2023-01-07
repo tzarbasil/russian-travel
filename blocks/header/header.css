@@ -6,6 +6,7 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    align-items: end;
 }
 
 .active {
@@ -16,6 +17,7 @@
     .header {
       max-width: 928px;
       margin-top: 28px;
+      margin-bottom: 48px;
     }
   }
   
@@ -23,6 +25,7 @@
     .header {
       max-width: 720px;
       margin-top: 28px;
+      margin-bottom: 48px;
     }
   }
   
@@ -30,5 +33,7 @@
     .header {
       max-width: 288px;
       margin-top: 16px;
+      align-items: center;
     }
 }
+
