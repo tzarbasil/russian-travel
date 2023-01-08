@@ -22,6 +22,7 @@
     .grid__content {
       max-width: 720px;
       gap: 16px;
+      margin-bottom: 88px;
     }
   }
   
