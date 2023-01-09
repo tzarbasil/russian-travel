@@ -1,40 +1,39 @@
-.cover { 
-  width: 1184px; 
+.cover {
+  width: 1184px;
   height: 740px;
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
-  background-image: url(../../images/cover-trains.jpg); 
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  background-position: center; 
-  margin-left: auto; 
-  margin-right: auto; 
-  position: relative; 
-  z-index: 0; 
-} 
- 
- 
-@media screen and (min-width: 320px) { 
-  .cover { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 0;
+}
+
+
+@media screen and (min-width: 320px) {
+  .cover {
     width: 320px;
     height: 200px;
     margin-top: 116px;
-  } 
-} 
- 
-@media screen and (min-width: 768px) { 
-  .cover { 
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
     width: 768px;
     height: 480px;
     margin-top: 95px;
-  } 
-} 
- 
-@media screen and (min-width: 1024px) { 
-  .cover { 
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
     width: 1024px;
     height: 640px;
-  } 
-} 
- 
+  }
+}
