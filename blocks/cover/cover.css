@@ -11,14 +11,11 @@
   z-index: 0;
 }
 
-.cover:hover .cover__image {
-  opacity: .2;
-  z-index: 0;
-}
 
 @media screen and (min-width: 320px) {
   .cover {
     min-height: 200px;
+    margin-top: 116px;
   }
 }
 

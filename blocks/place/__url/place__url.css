@@ -12,8 +12,7 @@ letter-spacing: 2px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .places__url {
+    .place__url {
       width: 288px;
-      margin: auto;
     }
   }
